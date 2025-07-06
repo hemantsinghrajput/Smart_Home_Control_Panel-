@@ -12,7 +12,7 @@ export default function SmartHomeScreen() {
   const insets = useSafeAreaInsets();
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: isDark ? '#181A20' : '#F5F6FA', paddingTop:insets.top }] }>
+    <SafeAreaView style={[styles.container, { backgroundColor: isDark ? '#181A20' : '#F5F6FA', paddingTop:insets.top,paddingBottom:insets.bottom }] }>
       <ScrollView 
         style={[styles.scrollView, { backgroundColor: isDark ? '#181A20' : '#F5F6FA' }]}
         showsVerticalScrollIndicator={false}
